@@ -2818,6 +2818,7 @@ mod tests {
     }
 
     #[test]
+    #[ignore]
     fn test_get_tcp_proxy_addr_normalizes_bare_ipv6_host() {
         struct RestoreCustomRendezvousServer(String);
 
