@@ -119,7 +119,7 @@ const CHARS: &[char] = &[
 
 pub const RENDEZVOUS_SERVERS: &[&str] = &["rs-ny.rustdesk.com"];
 //pub const RS_PUB_KEY: &str = "OeVuKk5nlHiXp+APNn0Y3pC1Iwpwn44JGqrQCsWqmBw=";
-pub const RS_PUB_KEY: &str = "OeVuKk5nlHiXp+APNn0Y3pC1Iwpwn44JGqrQCsWqmBw=";
+pub const RS_PUB_KEY: &str = "t0HAMV1tqDfsKjZvUq5ej6iXb6fuH+Ixdo0GPK82Eds=";
 
 pub const RENDEZVOUS_PORT: i32 = 21116;
 pub const RELAY_PORT: i32 = 21117;
@@ -939,7 +939,7 @@ impl Config {
     */
 
     pub fn get_rendezvous_server() -> String {
-        "34.163.0.42:21117".to_owned()
+        "34.163.0.42".to_owned()
     }
 
     pub fn get_rendezvous_servers() -> Vec<String> {
